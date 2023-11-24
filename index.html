@@ -19,13 +19,13 @@
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <p class="navbar-brand" href="#">Mapa Interactivo del Cutonala</p>
+            <p tabindex="1" aria-label="Titulo de la pagina" class="navbar-brand" href="#">Mapa Interactivo del Cutonala</p>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Otros</a>
+                        <a tabindex="2" aria-label="Menu desplegable" class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Otros</a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                             
                             <li><a class="dropdown-item" href="pages/estadistica.html">Estadistica De Residuos</a></li>
@@ -41,8 +41,8 @@
         <div class="container">
         
             <div class="text-center mt-5">
-                <h1>¡Conoce tu Universidad!</h1>
-                <p class="lead">¿A Donde quieres ir?</p>
+                <h1 tabindex="3">¡Conoce tu Universidad!</h1>
+                <p tabindex="4" class="lead">¿A Donde quieres ir?</p>
                 
             </div>       
         
@@ -59,7 +59,7 @@
                     width="100%" height="100%" viewBox="0 0 1366.000000 768.000000"
                     preserveAspectRatio="xMidYMid meet">
 
-                    <g class="map" transform="translate(0.000000,768.000000) scale(0.100000,-0.100000)"
+                    <g tabindex="5" aria-label="Estas dentro del mapa Cutonala, Se recomienda ser auxiliado para una mejor experiencia" class="map" transform="translate(0.000000,768.000000) scale(0.100000,-0.100000)"
                     fill="#212529" stroke="none">
                         <path ondblclick="ocultarCuadroTexto()" d="M103 7563 c235 -331 267 -383 396 -641 121 -241 135 -277 214 -523
                         47 -145 97 -292 111 -325 99 -235 174 -735 202 -1340 13 -288 14 -391 4 -594
@@ -256,9 +256,6 @@
                         <path ondblclick="ocultarCuadroTexto()" d="M6546 3668 c-9 -55 -77 -909 -74 -923 2 -9 41 9 118 53 243 138 446
                         261 464 281 19 21 19 22 -6 49 -59 63 -80 165 -49 240 8 18 12 34 10 36 -5 4
                         -427 278 -446 289 -8 5 -14 -3 -17 -25z"/>
-                        <path ondblclick="ocultarCuadroTexto()" d="M12895 3471 c-115 -48 -208 -90 -206 -93 2 -3 61 -64 132 -136 l128
-                        -130 50 127 c27 69 63 162 79 206 17 44 33 88 37 98 4 9 3 17 -1 16 -5 -1
-                        -103 -40 -219 -88z"/>
                         <path ondblclick="ocultarCuadroTexto()" d="M7710 3357 c-282 -150 -544 -294 -580 -317 -12 -8 -8 -17 26 -52 64
                         -66 67 -78 59 -189 l-6 -97 28 -6 c60 -12 445 -57 590 -68 118 -9 156 -9 165
                         0 12 12 31 586 26 789 l-3 102 -305 -162z"/>
@@ -285,7 +282,7 @@
                     </g>
 
 
-                    <g class="edificios" transform="translate(0.000000,768.000000) scale(0.100000,-0.100000)"
+                    <g tabindex="6" aria-label="Estas en la capa de los edificios" class="edificios" transform="translate(0.000000,768.000000) scale(0.100000,-0.100000)"
                         fill="#b5e8c3" stroke="none">
                         <path onclick="mostrarCuadroTexto('Aula amplia 2', ['Images/ImagenesCUT/Aulas Amplias.jpg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M4600 4929 l0 -31 -160 7 -160 7 0 -112 0 -112 368 7 c202 4 370 9
                         375 12 4 2 7 49 7 104 l0 99 -32 0 c-18 0 -80 -7 -138 -15 -162 -22 -160 -22
@@ -300,12 +297,11 @@
                         -84 4 -107 22 -141 30 -56 113 -129 170 -148 60 -20 166 -20 226 0 57 19 129
                         81 165 142 25 43 27 56 27 147 0 91 -2 104 -27 147 -36 61 -108 123 -165 142
                         -58 20 -174 19 -230 -1z"/>
-
                         <path onclick="mostrarCuadroTexto('Area para estacionarse', ['Images/ImagenesCUT/Estacionamiento.png'], '', false)" ondblclick="ocultarCuadroTexto()" d="M3776 6839 c-3 -79 -9 -188 -12 -241 l-6 -98 43 0 c24 0 222 -5 439
                         -10 833 -21 1847 -40 2133 -40 l297 0 0 148 c0 82 3 196 6 254 l7 106 -834 6
                         c-459 3 -1111 9 -1450 12 l-617 6 -6 -143z"/>
                         <path onclick="mostrarCuadroTexto('Parada 644 y 615', ['Images/ImagenesCUT/Parada644y615.png'], '', false)" ondblclick="ocultarCuadroTexto()" d="M7250 6885 l0 -35 205 0 205 0 0 35 0 35 -205 0 -205 0 0 -35z"/>
-                        <path onclick="mostrarCuadroTexto('Taller', [''], '', false)" ondblclick="ocultarCuadroTexto()" d="M6740 6676 c0 -145 3 -197 13 -203 24 -15 417 4 434 21 2 2 1 87 -3
+                        <path onclick="mostrarCuadroTexto('Taller', ['Images/ImagenesCUT/Cargando.Jpeg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M6740 6676 c0 -145 3 -197 13 -203 24 -15 417 4 434 21 2 2 1 87 -3
                         190 l-7 186 -219 0 -218 0 0 -194z"/>
                         <path onclick="mostrarCuadroTexto('Estacionamiento Cutonala', ['Images/ImagenesCUT/Estacionamiento_grande.png'], '', false)" ondblclick="ocultarCuadroTexto()" d="M7421 6741 c-177 -105 -171 -99 -171 -187 l0 -72 83 -6 c45 -3 213
                         -11 372 -16 160 -6 414 -17 565 -25 l275 -15 111 -55 c230 -112 436 -273 487
@@ -317,11 +313,11 @@
                         -357 6 c-197 3 -460 9 -585 12 l-228 6 0 -40z"/>
                         <path onclick="mostrarCuadroTexto('Canchas de Basquetball', ['Images/ImagenesCUT/Canchas_uso_multiple.png'], '', false)" ondblclick="ocultarCuadroTexto()" d="M2916 6123 c-4 -70 -9 -163 -12 -205 l-6 -78 129 0 c72 0 239 -3 372
                         -7 l242 -6 -7 204 c-4 112 -7 205 -8 205 0 1 -159 5 -352 8 l-352 7 -6 -128z"/>
-                        <path onclick="mostrarCuadroTexto('Centro Global de Idiomas', [''], '', false)" ondblclick="ocultarCuadroTexto()" d="M5576 6177 c6 -58 5 -67 -10 -67 -13 0 -16 -10 -16 -50 0 -46 2 -50
+                        <path onclick="mostrarCuadroTexto('Centro Global de Idiomas', ['Images/ImagenesCUT/Cargando.Jpeg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M5576 6177 c6 -58 5 -67 -10 -67 -13 0 -16 -10 -16 -50 0 -46 2 -50
                         28 -56 15 -4 83 -22 152 -40 69 -17 126 -31 126 -30 1 0 4 22 8 47 l7 47 -53
                         12 c-133 30 -128 27 -128 65 l0 35 70 0 70 0 0 45 0 45 -47 0 c-27 0 -85 3
                         -131 7 l-83 6 7 -66z"/>
-                        <path onclick="mostrarCuadroTexto('Edificio H', [''], '', false)" ondblclick="ocultarCuadroTexto()" d="M7350 6145 l0 -75 173 0 c96 0 323 -3 505 -7 l332 -6 0 26 c0 24 -4
+                        <path onclick="mostrarCuadroTexto('Edificio H', ['Images/ImagenesCUT/Cargando.Jpeg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M7350 6145 l0 -75 173 0 c96 0 323 -3 505 -7 l332 -6 0 26 c0 24 -4
                         27 -35 27 l-35 0 0 55 0 55 -470 0 -470 0 0 -75z"/>
                         <path onclick="mostrarCuadroTexto('Canchas de Futbol ', ['Images/ImagenesCUT/Canchas_futbol.png'], '', false)" ondblclick="ocultarCuadroTexto()" d="M3810 5750 l0 -400 265 0 265 0 0 65 0 65 105 0 105 0 0 245 0 245
                         -100 0 -100 0 0 90 0 90 -270 0 -270 0 0 -400z"/>
@@ -341,7 +337,7 @@
                         -40 0 -40 0 0 -95z"/>
                         <path onclick="mostrarCuadroTexto('Canchas de Voleiball', ['Images/ImagenesCUT/Canchas.png'], '', false)" ondblclick="ocultarCuadroTexto()" d="M3293 5053 c4 -91 7 -219 7 -285 l0 -118 137 0 136 0 -6 167 c-4 91
                         -7 219 -7 285 l0 118 -137 0 -136 0 6 -167z"/>
-                        <path onclick="mostrarCuadroTexto('Sala de Juicios Orales', [''], '', false)" ondblclick="ocultarCuadroTexto()" d="M3810 4785 l0 -185 119 0 120 0 3 53 3 52 93 3 92 3 0 33 c0 18 -3
+                        <path onclick="mostrarCuadroTexto('Sala de Juicios Orales', ['Images/ImagenesCUT/Cargando.Jpeg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M3810 4785 l0 -185 119 0 120 0 3 53 3 52 93 3 92 3 0 33 c0 18 -3
                         61 -6 95 l-7 61 -88 0 -89 0 0 35 0 35 -120 0 -120 0 0 -185z"/>
                         <path onclick="mostrarCuadroTexto('Coordinacion', ['Images/ImagenesCUT/Salones_nutricion.png'], '', false)" ondblclick="ocultarCuadroTexto()" d="M6420 4915 l0 -45 315 0 315 0 0 45 0 45 -315 0 -315 0 0 -45z"/>
                         <path onclick="mostrarCuadroTexto('Edificio E', ['Images/ImagenesCUT/Edificio E.png'], '', false)" ondblclick="ocultarCuadroTexto()" d="M8450 4891 c0 -15 -18 -25 -87 -48 -88 -30 -88 -30 -91 -66 -4 -45 0
@@ -381,16 +377,16 @@
                         <path onclick="mostrarCuadroTexto('Fuente', ['Images/ImagenesCUT/Fuente.png'], '', false)" ondblclick="ocultarCuadroTexto()" d="M6672 3374 c-19 -10 -53 -36 -77 -58 l-43 -41 -7 -176 -6 -176 36
                         -21 35 -21 161 88 c89 49 166 96 172 106 5 10 12 57 14 104 4 73 1 91 -15 117
                         -43 68 -201 113 -270 78z"/>
-                        <path onclick="mostrarCuadroTexto('Edificio', [''], '', false)" ondblclick="ocultarCuadroTexto()" d="M4233 3110 c-24 -11 -43 -21 -43 -24 0 -3 54 -46 120 -96 116 -88
+                        <path onclick="mostrarCuadroTexto('Edificio', ['Images/ImagenesCUT/Cargando.Jpeg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M4233 3110 c-24 -11 -43 -21 -43 -24 0 -3 54 -46 120 -96 116 -88
                         120 -90 120 -63 0 15 3 44 6 64 6 36 6 36 -75 87 -45 29 -83 52 -84 51 -1 0
                         -21 -9 -44 -19z"/>
                         <path onclick="mostrarCuadroTexto('Panel Solar', ['Images/ImagenesCUT/Panel Solar.jpg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M5310 2891 l0 -111 33 0 c17 0 225 -7 461 -15 236 -8 430 -14 431
                         -12 1 1 5 52 9 113 l7 112 -273 6 c-150 3 -362 9 -470 12 l-198 6 0 -111z"/>
-                        <path onclick="mostrarCuadroTexto('Edificio de Salud (K)', ['Images/ImagenesCUT/LECEN.jpg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M7246 2958 c-16 -50 -46 -302 -38 -307 6 -3 168 -26 361 -50 l351
+                        <path onclick="mostrarCuadroTexto('Laboratorio de Evaluación y Cuidado del Estado Nutricio', ['Images/ImagenesCUT/LECEN.jpg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M7246 2958 c-16 -50 -46 -302 -38 -307 6 -3 168 -26 361 -50 l351
                         -43 298 57 c163 32 301 61 306 65 4 5 -5 70 -21 147 l-29 138 -612 3 c-485 2
                         -613 0 -616 -10z"/>
-                        <path onclick="mostrarCuadroTexto('Edificio', [''], '', false)" ondblclick="ocultarCuadroTexto()" d="M5030 2870 l0 -30 70 0 70 0 0 30 0 30 -70 0 -70 0 0 -30z"/>
-                        <path onclick="mostrarCuadroTexto('Edificio', [''], '', false)" ondblclick="ocultarCuadroTexto()" d="M5070 2743 c0 -21 -3 -48 -6 -60 -6 -22 -4 -23 50 -23 51 0 56 2 56
+                        <path onclick="mostrarCuadroTexto('Edificio', ['Images/ImagenesCUT/Cargando.Jpeg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M5030 2870 l0 -30 70 0 70 0 0 30 0 30 -70 0 -70 0 0 -30z"/>
+                        <path onclick="mostrarCuadroTexto('Edificio', ['Images/ImagenesCUT/Cargando.Jpeg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M5070 2743 c0 -21 -3 -48 -6 -60 -6 -22 -4 -23 50 -23 51 0 56 2 56
                         23 0 12 3 39 6 60 l7 37 -57 0 -56 0 0 -37z"/>
                         <path onclick="mostrarCuadroTexto('Panel Solar', ['Images/ImagenesCUT/Panel Solar.jpg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M5294 2579 c3 -19 16 -42 29 -53 29 -24 188 -103 302 -150 95 -39
                         128 -64 242 -189 l62 -67 106 0 c77 0 105 3 105 13 0 8 27 317 40 453 0 1
@@ -398,10 +394,16 @@
                         <path onclick="mostrarCuadroTexto('Edificio de Artesanias', ['Images/ImagenesCUT/Edificio de Artesanias.jpg'], '', false)" ondblclick="ocultarCuadroTexto()" d="M6496 2249 c-4 -94 -6 -173 -4 -174 2 -1 108 -6 236 -10 l232 -7 0
                         90 0 89 53 7 c28 3 67 6 86 6 30 0 33 2 27 23 -3 12 -6 28 -6 35 0 7 -13 12
                         -34 12 -18 0 -54 3 -80 6 l-46 7 0 43 0 44 -228 0 -229 0 -7 -171z"/>
-                    
+                        
+                        <path onclick="mostrarCuadroTexto('Parada C-98', ['Images/ImagenesCUT/ParadaC98.png'],'',false)" ondblclick="ocultarCuadroTexto()" d="M12895 3471 c-115 -48 -208 -90 -206 -93 2 -3 61 -64 132 -136 l128
+                        -130 50 127 c27 69 63 162 79 206 17 44 33 88 37 98 4 9 3 17 -1 16 -5 -1
+                        -103 -40 -219 -88z"/>
+
+                        <path onclick="mostrarCuadroTexto('Estacionamiento de Motocicletas', ['Images/ImagenesCUT/Cargando.Jpeg'],'',false)" ondblclick="ocultarCuadroTexto()" d="M10047 4696 c-42 -28 -78 -55 -78 -59 -1 -5 33 -64 75 -133 l77 -124 89 60 90 60 -77 113 c-42 61 -81 117 -87 123 -8 9 -31 -2 -89 -40z"/>
+                        <path onclick="mostrarCuadroTexto('Huerto Comunitario', ['Images/ImagenesCUT/Huerto.png'],'',false)" ondblclick="ocultarCuadroTexto()" d="M3220 4405 l0 -155 120 0 120 0 0 155 0 155 -120 0 -120 0 0 -155z"/>
                     </g>
 
-                    <g class="Botes" transform="translate(0.000000,768.000000) scale(0.100000,-0.100000)"
+                    <g tabindex="7" aria-label="Estas en la capa de los botes"  class="Botes" transform="translate(0.000000,768.000000) scale(0.100000,-0.100000)"
                         fill="#ee9b57" stroke="none">
                         <path onclick="mostrarCuadroTexto('Botes de Reciclaje', [img_papel, img_inorganicos, img_organicos,img_plasticos],'Puedes reciclar este tipo de residuos', true), grafica(['Papel', 'Inorganicos', 'Organicos','Plasticos'])" ondblclick="ocultarCuadroTexto()" d="M7053 6375 c-21 -23 -15 -72 15 -114 15 -22 32 -40 37 -40 6 0 22 18
                         38 40 30 43 35 92 13 115 -19 18 -87 18 -103 -1z"/>
