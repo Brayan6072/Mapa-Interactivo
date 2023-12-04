@@ -53,3 +53,20 @@ body{
 #informacionCuadro{
     padding-top: 10px;
 }
+
+#svg-container {
+    position: relative;
+    
+    
+}
+
+.point {
+    cursor: pointer;
+    transition: fill 0.5s ease;
+    
+}
+
+.closest {
+    fill: rgb(255, 195, 0) !important;
+   
+}
